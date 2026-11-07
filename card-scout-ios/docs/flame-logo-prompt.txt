@@ -1,0 +1,7 @@
+Generated with the built-in image_gen tool using BurnMascot-proud as the style reference.
+
+Use case: logo-brand. Asset type: final iOS app icon and compact in-app brand mark for Card Scout, a premium sports trading card collection app.
+Reference image: existing Card Scout flame mascot; preserve its recognizable curved orange flame silhouette, warm orange/yellow color, cheerful confident energy and softly sculpted 3D cartoon style. Abstract it into a simple iconic symbol, not a full character illustration.
+Create ONE finished square 1024x1024 icon: a large bold orange flame head with only three clear sweeping flame tips, integrated with ONE cream trading card with a gold border inside the lower center of the flame. The card has a single deep green lightning bolt emblem. Tiny minimal confident friendly eyes above the card if helpful, but do not create a busy face; no mouth needed. The flame and card must read as one unified logo. No arms, hands, legs, jersey, body or extra objects.
+Premium soft rounded 3D, restrained highlights and shading, clean smooth surfaces rather than fur texture, striking silhouette readable at 32px. Deep evergreen #0F3D2E solid edge-to-edge square background, warm orange and yellow flame, cream and #C9A256 gold card accents. Center the mark, occupying about 76 percent of canvas with comfortable even margins. Crisp polished edges. No text, no letters, no wordmark, no mockup, no multiple variants, no border around the whole icon, no baked rounded app-icon corners, no drop shadow outside icon. Opaque background.
+

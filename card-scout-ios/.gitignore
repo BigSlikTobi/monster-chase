@@ -1,0 +1,22 @@
+build/
+build-device/
+.DS_Store
+Core/.build/
+*.xcuserstate
+xcuserdata/
+__pycache__/
+.swiftpm/
+# Runtime authentication, pairing and photo data must stay outside the source tree.
+auth.json
+config.json
+pairing.txt
+server.key
+server.crt
+*.sqlite3
+*.sqlite3-wal
+*.sqlite3-shm
+jobs/
+.env.local
+.env.benchmark.local
+# Source snapshots and installed owned reference images stay local.
+mac/context-cache/

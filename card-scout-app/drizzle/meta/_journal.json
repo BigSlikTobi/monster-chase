@@ -1,0 +1,34 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788534673834,
+      "tag": "0000_redundant_kid_colt",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788534988163,
+      "tag": "0001_narrow_the_twelve",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788537286022,
+      "tag": "0002_smart_mordo",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1788538693359,
+      "tag": "0003_ancient_nicolaos",
+      "breakpoints": true
+    }
+  ]
+}

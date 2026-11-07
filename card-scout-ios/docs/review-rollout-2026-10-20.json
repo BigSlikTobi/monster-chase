@@ -1,0 +1,50 @@
+{
+  "deployment": {
+    "status": "deployed",
+    "backup": "/var/lib/cardscout/backups/review-20261020-1792487739",
+    "collections": 55,
+    "checklistRows": 6476,
+    "savedJobs": 160,
+    "jobRecordsUnchanged": true,
+    "catalogRevision": "900a42fcf7364acc150de0f43738683ca86349b677f0294eac4480039cf1e0fb"
+  },
+  "apiAudit": {
+    "counts": {
+      "exactCardEvidence": 27,
+      "identityReview": 10,
+      "stillUnknown": 3,
+      "comparisonRange": 5
+    },
+    "ownedCards": 45,
+    "readOnlyRequests": 45,
+    "newPriceLookups": 0
+  },
+  "phoneDelivery": {
+    "attemptedPriceJobs": 45,
+    "build": "31",
+    "cardsNeedingIdentityReview": 10,
+    "cardsWithComparisonEstimates": 5,
+    "cardsWithFreshPrices": 27,
+    "cardsWithGuideEstimates": 10,
+    "checkedAt": "2026-10-20T09:25:21Z",
+    "ownedCards": 45,
+    "priceStates": {
+      "estimate": 5,
+      "no_match": 2,
+      "ready": 27,
+      "unavailable": 1,
+      "unsupported": 10
+    },
+    "referenceCount": 53,
+    "status": "verified"
+  },
+  "tests": {
+    "pythonPassed": 229,
+    "swiftExecuted": 139,
+    "swiftSkipped": 1,
+    "swiftFailures": 0,
+    "releaseBuild": "passed",
+    "previewBuild": "passed",
+    "finalReleaseBuild": 31
+  }
+}

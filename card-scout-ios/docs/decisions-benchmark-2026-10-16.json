@@ -1,0 +1,3216 @@
+{
+  "date": "2026-10-16",
+  "scope": "One Donruss Optic main-set binder family, plus two outside-binder controls.",
+  "librarySHA256": "df0c6c20bf8184b43804a10ca02fd197119991f98163af8de349c6d59e3e4b3c",
+  "sample": {
+    "queryCards": 14,
+    "referenceCards": 3,
+    "phoneCards": 45,
+    "phoneCollections": 12
+  },
+  "conditions": [
+    "Same original front/back bytes across routes; no photo resizing or OCR regeneration.",
+    "Current flow: existing run_identification then run_codex, Luna Fast/medium and conditional Sol/max via ChatGPT CLI; pricing excluded.",
+    "Decisions: two requests when routable; family/rookie first, then checklist row/finish; no OCR hints. Current flow retains existing capture OCR.",
+    "Full phone checklist candidates supplied to Decisions; current quick flow receives product metadata and full flow receives its normal targeted checklist rows.",
+    "Reference arm: three different held-out original cards with stored Blue Hyper, Fire and Base labels; no query card used as its own reference.",
+    "Single trial per card and arm, rotated arm order; at most two current-flow jobs overlapped; local network timings, not VPS queue or iPhone-to-server transport.",
+    "No production library, worker config, routing or pricing quota was changed. Separate Bench key powers API calls."
+  ],
+  "limitations": [
+    "Stored exact variant labels are provisional agreement targets, not independently authenticated physical truth.",
+    "Checklist-row matches use visible player names checked on original photos and matching local checklist rows. Product/year expectations come from the existing binder snapshot.",
+    "Some original cards have only fronts, glare, sleeves or ambiguous finish. No definitive exact-variant accuracy claim is possible from this sample alone.",
+    "The Topps control exceeds this one-binder prototype candidate budget and stops after correct family routing.",
+    "CLI image-tool warnings are reported per case; they limit conclusions about the Sol replay.",
+    "Two local preflight errors and one discarded API stage during candidate-limit handling are excluded from paired timings; these were not production failures.",
+    "The corrected arm changes reference photos and adds Orange Scope to the choices. It is a corrected-reference follow-up, not a controlled label-only ablation. Trey Amos Blue Hyper attribution remains medium confidence."
+  ],
+  "referenceCards": [
+    {
+      "index": 0,
+      "id": "2057f880-4754-4223-b07a-393eb4c68f8b",
+      "player": "Dont'e Thornton Jr.",
+      "storedVariant": "Blue Hyper",
+      "labelVerifiedIndependently": false
+    },
+    {
+      "index": 12,
+      "id": "26bfcac5-307f-4841-9cd7-3ad4dc462d14",
+      "player": "Derrick Harmon",
+      "storedVariant": "Fire",
+      "labelVerifiedIndependently": false
+    },
+    {
+      "index": 28,
+      "id": "c6873384-a1e9-48fe-83dd-9969bcd5c82a",
+      "player": "Matthew Golden",
+      "storedVariant": "Base",
+      "labelVerifiedIndependently": false
+    }
+  ],
+  "cases": [
+    {
+      "index": 1,
+      "id": "962eed68-9864-44e3-9050-dfec23fc7035",
+      "player": "Jalen Royals",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "251",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "a31d22c56fb874c67f3c692382bc1c77e692af9be4257d3717ecea4658cfa819"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.917692207964137,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "251",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.45,
+            "rookie": 1.0,
+            "card": 0.73,
+            "variant": 0.47
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 6961,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 6961
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 6.244915041024797,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "251",
+            "variant": "Fire"
+          },
+          "confidence": {
+            "family": 0.45,
+            "rookie": 1.0,
+            "card": 0.64,
+            "variant": 0.27
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 22097,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 22097
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_corrected": {
+          "seconds": 5.045934708032291,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "251",
+            "variant": "Blue Hyper"
+          },
+          "confidence": {
+            "family": 0.45,
+            "rookie": 1.0,
+            "card": 0.46,
+            "variant": 0.21
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 36051,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 36051
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "current_quick": {
+          "seconds": 8.1406138750026,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "Jalen Royals"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 102.24425645795418,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "251",
+            "variant": "Blue Hyper",
+            "player": "Jalen Royals"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 1,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.13,
+              "usage": {
+                "input_tokens": 4348,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4345,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 911,
+                "output_tokens_details": {
+                  "reasoning_tokens": 642
+                },
+                "total_tokens": 5259
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 16.18,
+              "usage": {
+                "input_tokens": 8006,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8003,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 2155,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1707
+                },
+                "total_tokens": 10161
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 2,
+      "id": "0b6baf86-412e-4383-b059-c4fd585bd050",
+      "player": "Bhayshul Tuten",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "272",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "3770dd9ac73f5fa02d4da5fdd17904cc2662ffc6347c5b9230cf76bece3b23ee"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 4.876329542021267,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "272",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.62,
+            "rookie": 1.0,
+            "card": 0.79,
+            "variant": 0.72
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 6961,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 6961
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 4.670932541019283,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "272",
+            "variant": "Blue Hyper"
+          },
+          "confidence": {
+            "family": 0.62,
+            "rookie": 1.0,
+            "card": 0.7,
+            "variant": 0.28
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 22097,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 22097
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_corrected": {
+          "seconds": 4.824021624983288,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "272",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.62,
+            "rookie": 1.0,
+            "card": 0.68,
+            "variant": 0.1
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 36051,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 36051
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_quick": {
+          "seconds": 6.285110500000883,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "Bhayshul Tuten"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 79.37589141604258,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "272",
+            "variant": "Blue Hyper",
+            "player": "Bhayshul Tuten"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 6.28,
+              "usage": {
+                "input_tokens": 4344,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4341,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 756,
+                "output_tokens_details": {
+                  "reasoning_tokens": 486
+                },
+                "total_tokens": 5100
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 10.83,
+              "usage": {
+                "input_tokens": 8010,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8007,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1483,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1034
+                },
+                "total_tokens": 9493
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 4,
+      "id": "f55a4025-d54d-4312-a88b-1f7784cb3ac7",
+      "player": "Chimere Dike",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "269",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "9f3c06e6175cd79dffe850c8e3ae20fcb6db93f3459dc24ead42c025460f9394"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.9462927079875953,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "269",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.61,
+            "rookie": 1.0,
+            "card": 0.7,
+            "variant": 0.53
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 6961,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 6961
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 4.137766833009664,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "269",
+            "variant": "Blue Hyper"
+          },
+          "confidence": {
+            "family": 0.65,
+            "rookie": 1.0,
+            "card": 0.81,
+            "variant": 0.28
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 22097,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 22097
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_corrected": {
+          "seconds": 5.15674179198686,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "269",
+            "variant": "Blue Hyper"
+          },
+          "confidence": {
+            "family": 0.65,
+            "rookie": 1.0,
+            "card": 0.63,
+            "variant": 0.32
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 36051,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 36051
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "current_quick": {
+          "seconds": 9.57911895797588,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "Chimere Dike"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 80.67939941596705,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "269",
+            "variant": "Blue Hyper",
+            "player": "Chimere Dike"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 9.57,
+              "usage": {
+                "input_tokens": 4354,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4351,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1177,
+                "output_tokens_details": {
+                  "reasoning_tokens": 911
+                },
+                "total_tokens": 5531
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 13.06,
+              "usage": {
+                "input_tokens": 8010,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8007,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1784,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1351
+                },
+                "total_tokens": 9794
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 5,
+      "id": "006ba247-3037-4862-ac77-0806ad9c85e8",
+      "player": "T.J. Sanders",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "226",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "b949a7f29966c79e4740022eacd2470c609d0f27487d08204eb307e131f9d085"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 1.5237017499748617,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.44,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 2.571747875015717,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.44,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_corrected": {
+          "seconds": 1.3753725410206243,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.44,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_quick": {
+          "seconds": 6.447790708974935,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "T.J. Sanders"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 74.65179454197641,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "226",
+            "variant": "Blue Hyper",
+            "player": "T.J. Sanders"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 6.44,
+              "usage": {
+                "input_tokens": 4347,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4344,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 659,
+                "output_tokens_details": {
+                  "reasoning_tokens": 444
+                },
+                "total_tokens": 5006
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 12.68,
+              "usage": {
+                "input_tokens": 8008,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8005,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1638,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1189
+                },
+                "total_tokens": 9646
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 8,
+      "id": "4364196b-f98c-473f-a125-1b5625331a86",
+      "player": "Nic Scourton",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "270",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "b7686b77c494bffa1c28630fccbc16395d781262655c32b73cebc06d3525009d"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 1.7184682079823688,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.51,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 1.5218309999909252,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.53,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_corrected": {
+          "seconds": 1.741660250001587,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.53,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_quick": {
+          "seconds": 6.661909416958224,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "Nic Scourton"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 64.73574745800579,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "270",
+            "variant": "Blue Hyper",
+            "player": "Nic Scourton"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 6.66,
+              "usage": {
+                "input_tokens": 4342,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4339,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 698,
+                "output_tokens_details": {
+                  "reasoning_tokens": 489
+                },
+                "total_tokens": 5040
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 11.14,
+              "usage": {
+                "input_tokens": 8008,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8005,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1413,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1014
+                },
+                "total_tokens": 9421
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 11,
+      "id": "a067ba37-242f-4171-8e0b-31f47c3b4c7b",
+      "player": "Tyler Loop",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "227",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "5b09a7f1e58daf9672435a4139b533bc0d682ae6d9da1a7b3f8c20308f4ecf44"
+      },
+      "storedVariant": "Blue Hyper",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.448866291961167,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "227",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.63,
+            "rookie": 1.0,
+            "card": 0.66,
+            "variant": 0.76
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 6961,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 6961
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_reference": {
+          "seconds": 4.340650792000815,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "227",
+            "variant": "Blue Hyper"
+          },
+          "confidence": {
+            "family": 0.63,
+            "rookie": 1.0,
+            "card": 0.67,
+            "variant": 0.23
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 22097,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 22097
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_corrected": {
+          "seconds": 1.4115968749974854,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.47,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_quick": {
+          "seconds": 7.063531166000757,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Blue Hyper",
+            "player": "Tyler Loop"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 79.72086683299858,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "227",
+            "variant": "Blue Hyper",
+            "player": "Tyler Loop"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 7.06,
+              "usage": {
+                "input_tokens": 4333,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4330,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 759,
+                "output_tokens_details": {
+                  "reasoning_tokens": 494
+                },
+                "total_tokens": 5092
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 12.43,
+              "usage": {
+                "input_tokens": 8006,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8003,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1766,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1336
+                },
+                "total_tokens": 9772
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 24,
+      "id": "13821595-6191-4079-a9f2-e160796e62bf",
+      "player": "Tre Harris",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "229",
+      "targetBinderFamily": true,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "e25ef7702088661de9f60445017e6d1bfa94a714ae6da8ff1b093a8a700da4e6",
+        "backFile": "a437fb0f7ed688d3ffec6309d37a861013cd74aca7adc2c80233894feccdc445"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.6708141249837354,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "229",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.78,
+            "rookie": 1.0,
+            "card": 0.83,
+            "variant": 0.42
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 11967,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 11967
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_reference": {
+          "seconds": 5.815527667000424,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "229",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.92,
+            "rookie": 0.99,
+            "card": 0.96,
+            "variant": 0.4
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 27103,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 27103
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_corrected": {
+          "seconds": 5.889074000006076,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "229",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.78,
+            "rookie": 1.0,
+            "card": 0.77,
+            "variant": 0.63
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 41057,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 41057
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_quick": {
+          "seconds": 9.938756374991499,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "229",
+            "variant": "Base",
+            "player": "Tre Harris"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_full": {
+          "seconds": 81.83296383399284,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "229",
+            "variant": "Base",
+            "player": "Tre Harris"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 9.92,
+              "usage": {
+                "input_tokens": 7283,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7280,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1220,
+                "output_tokens_details": {
+                  "reasoning_tokens": 989
+                },
+                "total_tokens": 8503
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 11.7,
+              "usage": {
+                "input_tokens": 10806,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10803,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1355,
+                "output_tokens_details": {
+                  "reasoning_tokens": 927
+                },
+                "total_tokens": 12161
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        }
+      }
+    },
+    {
+      "index": 25,
+      "id": "0a0614ed-1a83-4c48-8533-6c035adc8618",
+      "player": "Tyleik Williams",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "246",
+      "targetBinderFamily": true,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "b5f00f702e263a2b7dc8e579652792ef4d5124ccdf55ad6348f870358973c6b1",
+        "backFile": "3e8973a274c4214bb996141634dcc7e9d1e51273ddd67be8f2e5c4772931dd19"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.51644654199481,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "246",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 1.0,
+            "card": 0.82,
+            "variant": 0.58
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 11967,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 11967
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_reference": {
+          "seconds": 5.893268792016897,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "246",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 1.0,
+            "card": 0.98,
+            "variant": 0.48
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 27103,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 27103
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_corrected": {
+          "seconds": 7.011248791997787,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "246",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.94,
+            "rookie": 1.0,
+            "card": 0.77,
+            "variant": 0.56
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 41057,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 41057
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_quick": {
+          "seconds": 8.798724749998655,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "246",
+            "variant": "unbekannt",
+            "player": "Tyleik Williams"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_full": {
+          "seconds": 91.80020408303244,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "246",
+            "variant": "Base",
+            "player": "Tyleik Williams"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.79,
+              "usage": {
+                "input_tokens": 7286,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7283,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 907,
+                "output_tokens_details": {
+                  "reasoning_tokens": 725
+                },
+                "total_tokens": 8193
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 14.47,
+              "usage": {
+                "input_tokens": 10807,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10804,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1902,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1449
+                },
+                "total_tokens": 12709
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        }
+      }
+    },
+    {
+      "index": 31,
+      "id": "51ee61d9-86a8-4313-85f2-9a92daa989a7",
+      "player": "Terry Bradshaw",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "188",
+      "targetBinderFamily": true,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "349ca7aa5864586df3728f66bd3e53716f2af0f33e882cd2a885a1f5630d30f7",
+        "backFile": "f9203a64e23903c833474cd494729dd8989aa0851e0dff95d5eefc24985ff657"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 4.695493125007488,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "188",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.95,
+            "rookie": 1.0,
+            "card": 0.7,
+            "variant": 0.46
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 13535,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 13535
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_reference": {
+          "seconds": 6.054360124981031,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "unknown",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.95,
+            "rookie": 1.0,
+            "card": 0.32,
+            "variant": 0.28
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 28671,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 28671
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": false
+        },
+        "decisions_corrected": {
+          "seconds": 7.043216375051998,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "188",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 1.0,
+            "card": 0.48,
+            "variant": 0.45
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 42625,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 42625
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "current_quick": {
+          "seconds": 8.329150250006933,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "188",
+            "variant": "Gold",
+            "player": "Terry Bradshaw"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 79.83768870902713,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "188",
+            "variant": "Base",
+            "player": "Terry Bradshaw"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.31,
+              "usage": {
+                "input_tokens": 7285,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7282,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 836,
+                "output_tokens_details": {
+                  "reasoning_tokens": 630
+                },
+                "total_tokens": 8121
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 11.65,
+              "usage": {
+                "input_tokens": 10809,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10806,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1346,
+                "output_tokens_details": {
+                  "reasoning_tokens": 915
+                },
+                "total_tokens": 12155
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 35,
+      "id": "3e305996-1ba1-424e-80ed-3d9e82e8c4bd",
+      "player": "DJ Moore",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "114",
+      "targetBinderFamily": true,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "0ecec0c29a599e3b3f7331ac400ec7cddf7484dd1bbea2b0f0a1c49e5a8ebd43",
+        "backFile": "f86f9f0f039fe5e0ffff0d224eeeabf22d492132daad618c4acff18686fb0874"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": true,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 4.70820737502072,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "114",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.99,
+            "card": 0.72,
+            "variant": 0.76
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 13535,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 13535
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_reference": {
+          "seconds": 5.1469751670374535,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "114",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.99,
+            "card": 0.41,
+            "variant": 0.39
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 28671,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 28671
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "decisions_corrected": {
+          "seconds": 6.83270516601624,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "114",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.99,
+            "card": 0.33,
+            "variant": 0.53
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 42625,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 42625
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        },
+        "current_quick": {
+          "seconds": 8.501847708015703,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "114",
+            "variant": "Unbestimmt",
+            "player": "DJ Moore"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": false,
+          "familyCardVariantMatchStored": false
+        },
+        "current_full": {
+          "seconds": 20.509424791962374,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "114",
+            "variant": "Base",
+            "player": "DJ Moore"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": false,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.49,
+              "usage": {
+                "input_tokens": 7252,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7249,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 802,
+                "output_tokens_details": {
+                  "reasoning_tokens": 622
+                },
+                "total_tokens": 8054
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 11.99,
+              "usage": {
+                "input_tokens": 10805,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10802,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1453,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1034
+                },
+                "total_tokens": 12258
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true,
+          "variantMatchesStoredLabel": true,
+          "familyCardVariantMatchStored": true
+        }
+      }
+    },
+    {
+      "index": 22,
+      "id": "7d3f2365-d445-4969-873d-f7154f673d8f",
+      "player": "Tyjae Spears",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "172",
+      "targetBinderFamily": true,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "6cf3f99da894e9c2117506d6705306c4f6dd476f7af29373beb52de925b05a65"
+      },
+      "storedVariant": "Holo",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 1.4691039169556461,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.63,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "decisions_reference": {
+          "seconds": 2.337402583041694,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.63,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "decisions_corrected": {
+          "seconds": 2.326274624967482,
+          "prediction": {
+            "family": null,
+            "cardNumber": null,
+            "variant": null
+          },
+          "confidence": {
+            "family": 0.43,
+            "rookie": 1.0
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            }
+          ],
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "current_quick": {
+          "seconds": 9.376117540989071,
+          "prediction": {
+            "family": "None|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Holo",
+            "player": "Tyjae Spears"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": false,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "current_full": {
+          "seconds": 134.94735070801107,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": null,
+            "variant": "Base",
+            "player": "Tyjae Spears"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 9.37,
+              "usage": {
+                "input_tokens": 4345,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4342,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1148,
+                "output_tokens_details": {
+                  "reasoning_tokens": 945
+                },
+                "total_tokens": 5493
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 10.72,
+              "usage": {
+                "input_tokens": 8007,
+                "input_tokens_details": {
+                  "cache_write_tokens": 8004,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1460,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1091
+                },
+                "total_tokens": 9467
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        }
+      }
+    },
+    {
+      "index": 34,
+      "id": "cdfc9e69-c9f1-4394-b98a-aaf0bdc4b081",
+      "player": "Chase Brown",
+      "expectedFamily": "2025|Panini|Donruss Optic|Base",
+      "expectedChecklistNumber": "197",
+      "targetBinderFamily": true,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "c8baae6fa3a880e382051171023719d532f546592e5f421c58884e9413ab04c6",
+        "backFile": "1dc8fb99343f0ff02092cb8b60dd7a1c72545c786d0559f284dd24182bbcd4ca"
+      },
+      "storedVariant": "Fire",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 6.575070041988511,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "197",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.95,
+            "rookie": 1.0,
+            "card": 0.52,
+            "variant": 0.46
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 13535,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 13535
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_reference": {
+          "seconds": 5.289514291973319,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "197",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.92,
+            "rookie": 1.0,
+            "card": 0.83,
+            "variant": 0.23
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 28671,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 28671
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_corrected": {
+          "seconds": 6.795717291999608,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "197",
+            "variant": "Base"
+          },
+          "confidence": {
+            "family": 0.95,
+            "rookie": 1.0,
+            "card": 0.54,
+            "variant": 0.3
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            },
+            {
+              "input_tokens": 42625,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 42625
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_quick": {
+          "seconds": 9.583353499998339,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "197",
+            "variant": "Base",
+            "player": "Chase Brown"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_full": {
+          "seconds": 97.96575562498765,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Base",
+            "cardNumber": "197",
+            "variant": "Base",
+            "player": "Chase Brown"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 9.57,
+              "usage": {
+                "input_tokens": 7290,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7287,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1026,
+                "output_tokens_details": {
+                  "reasoning_tokens": 854
+                },
+                "total_tokens": 8316
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 11.66,
+              "usage": {
+                "input_tokens": 10807,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10804,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1177,
+                "output_tokens_details": {
+                  "reasoning_tokens": 732
+                },
+                "total_tokens": 11984
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        }
+      }
+    },
+    {
+      "index": 13,
+      "id": "342c4980-10c6-4ee8-9d82-34ab340e103e",
+      "player": "Amon-Ra St. Brown",
+      "expectedFamily": "2025|Panini|Donruss Optic|Captain in Charge",
+      "expectedChecklistNumber": "2",
+      "targetBinderFamily": false,
+      "hasBack": false,
+      "photoSHA256": {
+        "frontFile": "07918e02b6ba78a02c6bed3e556ca0eea82ef1be2226a01d3a49c07143a7f5eb"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 3.522493000025861,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Captain in Charge",
+            "cardNumber": "2",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.82,
+            "card": 0.98,
+            "variant": 0.66
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 5519,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5519
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_reference": {
+          "seconds": 2.719835542025976,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Captain in Charge",
+            "cardNumber": "2",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.82,
+            "card": 0.98,
+            "variant": 0.66
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 5519,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5519
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "decisions_corrected": {
+          "seconds": 3.2713686659699306,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Captain in Charge",
+            "cardNumber": "2",
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.98,
+            "rookie": 0.82,
+            "card": 0.98,
+            "variant": 0.94
+          },
+          "apiCalls": 2,
+          "usage": [
+            {
+              "input_tokens": 5554,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5554
+            },
+            {
+              "input_tokens": 5522,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 5522
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_quick": {
+          "seconds": 7.045087958977092,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Captain in Charge",
+            "cardNumber": null,
+            "variant": "Base",
+            "player": "Amon-Ra St. Brown"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "current_full": {
+          "seconds": 73.64507795899408,
+          "prediction": {
+            "family": "2025|Panini|Donruss Optic|Captain in Charge",
+            "cardNumber": "2",
+            "variant": "Base",
+            "player": "Amon-Ra St. Brown"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": true,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 7.04,
+              "usage": {
+                "input_tokens": 4344,
+                "input_tokens_details": {
+                  "cache_write_tokens": 4341,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 810,
+                "output_tokens_details": {
+                  "reasoning_tokens": 612
+                },
+                "total_tokens": 5154
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 13.02,
+              "usage": {
+                "input_tokens": 7883,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7880,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 1813,
+                "output_tokens_details": {
+                  "reasoning_tokens": 1382
+                },
+                "total_tokens": 9696
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        }
+      }
+    },
+    {
+      "index": 37,
+      "id": "e703b314-1657-48b9-ab86-f74bdba656e9",
+      "player": "Tristan Wirfs",
+      "expectedFamily": "2025|Topps|Topps Chrome|Base",
+      "expectedChecklistNumber": "287",
+      "targetBinderFamily": false,
+      "hasBack": true,
+      "photoSHA256": {
+        "frontFile": "3da3dc83e09a50daed69e82b9f12c3b33818b2673ca59f9493d5759a1d866bdb",
+        "backFile": "625c87e9e2193826da875e2f1399c619b1f4e700a3c80bc2fbe0b6f9874ddde5"
+      },
+      "storedVariant": "Base",
+      "variantAgreementScorable": false,
+      "independentVariantTruth": null,
+      "routes": {
+        "decisions_plain": {
+          "seconds": 1.414964957977645,
+          "prediction": {
+            "family": "2025|Topps|Topps Chrome|Base",
+            "cardNumber": null,
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.85,
+            "rookie": 0.99
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "decisions_reference": {
+          "seconds": 1.7175823749857955,
+          "prediction": {
+            "family": "2025|Topps|Topps Chrome|Base",
+            "cardNumber": null,
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.85,
+            "rookie": 0.99
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "decisions_corrected": {
+          "seconds": 2.6071249169763178,
+          "prediction": {
+            "family": "2025|Topps|Topps Chrome|Base",
+            "cardNumber": null,
+            "variant": "unknown"
+          },
+          "confidence": {
+            "family": 0.85,
+            "rookie": 0.99
+          },
+          "apiCalls": 1,
+          "usage": [
+            {
+              "input_tokens": 10560,
+              "input_tokens_details": {
+                "cached_tokens": 0,
+                "cache_write_tokens": 0
+              },
+              "output_tokens": 0,
+              "output_tokens_details": {
+                "reasoning_tokens": 0
+              },
+              "total_tokens": 10560
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": false,
+          "familyAndCardMatch": false
+        },
+        "current_quick": {
+          "seconds": 8.96803920797538,
+          "prediction": {
+            "family": "2025|Topps|Topps Chrome|Base",
+            "cardNumber": "287",
+            "variant": "Unbekannt",
+            "player": "Tristan Wirfs"
+          },
+          "confidence": "medium",
+          "identityConfirmed": false,
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        },
+        "current_full": {
+          "seconds": 17.421572124992963,
+          "prediction": {
+            "family": "2025|Topps|Topps Chrome|Base",
+            "cardNumber": "287",
+            "variant": "Base",
+            "player": "Tristan Wirfs"
+          },
+          "confidence": "high",
+          "identityConfirmed": true,
+          "solEscalated": false,
+          "imageToolWarnings": 0,
+          "apiAccounting": [
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.96,
+              "usage": {
+                "input_tokens": 7289,
+                "input_tokens_details": {
+                  "cache_write_tokens": 7286,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 840,
+                "output_tokens_details": {
+                  "reasoning_tokens": 643
+                },
+                "total_tokens": 8129
+              },
+              "webSearchCalls": 0
+            },
+            {
+              "backend": "openai-api",
+              "model": "gpt-6-luna",
+              "requestedTier": "fast",
+              "actualTier": "fast",
+              "status": "completed",
+              "seconds": 8.44,
+              "usage": {
+                "input_tokens": 10825,
+                "input_tokens_details": {
+                  "cache_write_tokens": 10822,
+                  "cached_tokens": 0
+                },
+                "output_tokens": 953,
+                "output_tokens_details": {
+                  "reasoning_tokens": 516
+                },
+                "total_tokens": 11778
+              },
+              "webSearchCalls": 0
+            }
+          ],
+          "familyMatchesExpected": true,
+          "checklistNumberMatchesExpected": true,
+          "familyAndCardMatch": true
+        }
+      }
+    }
+  ],
+  "summary": {
+    "decisions_plain": {
+      "completedCases": 14,
+      "medianSeconds": 3.597,
+      "minSeconds": 1.415,
+      "maxSeconds": 6.575,
+      "expectedFamilyMatches": 11,
+      "expectedFamilyAndChecklistMatches": 10,
+      "targetBinderCases": 12,
+      "targetBinderFamilyAndChecklistMatches": 9,
+      "targetBinderMedianSeconds": 3.794,
+      "stableStoredVariantCases": 8,
+      "variantAgreements": 2,
+      "familyCardVariantAgreements": 2,
+      "independentExactVariantAccuracy": null
+    },
+    "decisions_reference": {
+      "completedCases": 14,
+      "medianSeconds": 4.506,
+      "minSeconds": 1.522,
+      "maxSeconds": 6.245,
+      "expectedFamilyMatches": 11,
+      "expectedFamilyAndChecklistMatches": 9,
+      "targetBinderCases": 12,
+      "targetBinderFamilyAndChecklistMatches": 8,
+      "targetBinderMedianSeconds": 4.909,
+      "stableStoredVariantCases": 8,
+      "variantAgreements": 5,
+      "familyCardVariantAgreements": 4,
+      "independentExactVariantAccuracy": null
+    },
+    "current_quick": {
+      "completedCases": 14,
+      "medianSeconds": 8.415,
+      "minSeconds": 6.285,
+      "maxSeconds": 9.939,
+      "expectedFamilyMatches": 13,
+      "expectedFamilyAndChecklistMatches": 6,
+      "targetBinderCases": 12,
+      "targetBinderFamilyAndChecklistMatches": 5,
+      "targetBinderMedianSeconds": 8.415,
+      "stableStoredVariantCases": 8,
+      "variantAgreements": 6,
+      "familyCardVariantAgreements": 0,
+      "independentExactVariantAccuracy": null
+    },
+    "current_full": {
+      "completedCases": 14,
+      "medianSeconds": 79.779,
+      "minSeconds": 17.422,
+      "maxSeconds": 134.947,
+      "expectedFamilyMatches": 14,
+      "expectedFamilyAndChecklistMatches": 13,
+      "targetBinderCases": 12,
+      "targetBinderFamilyAndChecklistMatches": 11,
+      "targetBinderMedianSeconds": 80.259,
+      "stableStoredVariantCases": 8,
+      "variantAgreements": 8,
+      "familyCardVariantAgreements": 8,
+      "independentExactVariantAccuracy": null,
+      "solEscalations": 12,
+      "casesWithImageToolWarnings": 1
+    },
+    "decisions_corrected": {
+      "completedCases": 14,
+      "medianSeconds": 4.935,
+      "minSeconds": 1.375,
+      "maxSeconds": 7.043,
+      "expectedFamilyMatches": 10,
+      "expectedFamilyAndChecklistMatches": 9,
+      "targetBinderCases": 12,
+      "targetBinderFamilyAndChecklistMatches": 8,
+      "targetBinderMedianSeconds": 5.101,
+      "stableStoredVariantCases": 8,
+      "variantAgreements": 4,
+      "familyCardVariantAgreements": 4,
+      "independentExactVariantAccuracy": null
+    }
+  },
+  "referenceAudit": {
+    "date": "2026-10-16",
+    "originalReferenceLabelError": {
+      "player": "Derrick Harmon",
+      "cardNumber": "257",
+      "storedLabel": "Fire",
+      "supportedLabel": "Orange Scope",
+      "serialNumber": "20/79",
+      "evidence": "New front shows orange concentric Scope pattern; new back visibly numbered 20/79 and identifies 2025 Donruss Optic #257. Checklist lists Orange Scope /79 separately from Fire."
+    },
+    "cards": [
+      {
+        "player": "Derrick Harmon",
+        "cardNumber": "257",
+        "parallel": "Orange Scope",
+        "serialNumber": "20/79",
+        "confidence": "high",
+        "frontFile": "/Users/tobiaslatta/Downloads/IMG_3283.HEIC",
+        "backFile": "/Users/tobiaslatta/Downloads/IMG_3284.HEIC",
+        "frontJPEG": "/private/tmp/cardscout-reference-check/3283.jpg",
+        "sources": [
+          "https://www.breakninja.com/football/2025-Donruss-Optic-Football-Checklist-Pittsburgh-Steelers.php",
+          "https://www.tcdb.com/ChecklistByLastName.cfm/sid/589443/2025-Donruss-Optic---Orange-Scope"
+        ],
+        "family": "2025|Panini|Donruss Optic|Base",
+        "originalPhotoSHA256": {
+          "frontFile": "d1547ebe258d364766ce32a619bbf494b4b4692ff5d2aa5cf66915988033071e",
+          "backFile": "6834160229a72439189dd7e816737146415a1ec06a5b94ff21cfc31ee85f7bfa"
+        },
+        "convertedFrontSHA256": "0c41729a77d7b9db96b67251c51706e40bbc490361f5c26b51175a514ceac1ff"
+      },
+      {
+        "player": "Trey Amos",
+        "cardNumber": "267",
+        "parallel": "Blue Hyper",
+        "serialNumber": null,
+        "confidence": "medium",
+        "frontFile": "/Users/tobiaslatta/Downloads/IMG_3285.HEIC",
+        "backFile": "/Users/tobiaslatta/Downloads/IMG_3286 2.HEIC",
+        "frontJPEG": "/private/tmp/cardscout-reference-check/3285.jpg",
+        "evidence": "Printed name, card number and copyright identify Trey Amos #267, 2025 Donruss Optic; blue geometric foil supports Blue Hyper. The back PRIZM mark alone does not name the parallel. No serial visible. Not Dont’e Thornton.",
+        "sources": [
+          "https://www.tcdb.com/Checklist.cfm/sid/589491/2025-Donruss-Optic---Blue-Hyper",
+          "https://www.sportscardspro.com/game/football-cards-2025-panini-donruss-optic/trey-amos-blue-hyper-267"
+        ],
+        "family": "2025|Panini|Donruss Optic|Base",
+        "originalPhotoSHA256": {
+          "frontFile": "5e7ae01679f4c41312868103ce8b6bc3e6880fd8e921171272c7ba9f5da6d1d3",
+          "backFile": "a51dda01058b26f1645dffdbf4aff8ec7d87066fe84d1d7b584f7b30b19f565f"
+        },
+        "convertedFrontSHA256": "677fc48fba384bf109b9f4f28ac4ca8472ab71c995b901a922bf3c660434d7c1"
+      }
+    ],
+    "benchmarkImpact": "Original reference arm supplied an Orange Scope photo labeled Fire, omitted Orange Scope from the offered choices, and cannot establish exact-variant accuracy. Historical timings and outputs remain preserved. New reference arm changes both reference photos and candidate labels; not a controlled label-only ablation."
+  },
+  "originalReferenceArmStatus": "Incorrectly labeled reference: Derrick Harmon Orange Scope /79 was supplied as Fire. Preserve historical observations; do not infer exact-variant accuracy from that arm.",
+  "complete": true
+}

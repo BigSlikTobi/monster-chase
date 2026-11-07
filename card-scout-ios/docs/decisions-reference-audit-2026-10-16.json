@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-16",
+  "originalReferenceLabelError": {
+    "player": "Derrick Harmon",
+    "cardNumber": "257",
+    "storedLabel": "Fire",
+    "supportedLabel": "Orange Scope",
+    "serialNumber": "20/79",
+    "evidence": "New front shows orange concentric Scope pattern; new back visibly numbered 20/79 and identifies 2025 Donruss Optic #257. Checklist lists Orange Scope /79 separately from Fire."
+  },
+  "cards": [
+    {
+      "player": "Derrick Harmon",
+      "cardNumber": "257",
+      "parallel": "Orange Scope",
+      "serialNumber": "20/79",
+      "confidence": "high",
+      "frontFile": "/Users/tobiaslatta/Downloads/IMG_3283.HEIC",
+      "backFile": "/Users/tobiaslatta/Downloads/IMG_3284.HEIC",
+      "frontJPEG": "/private/tmp/cardscout-reference-check/3283.jpg",
+      "sources": [
+        "https://www.breakninja.com/football/2025-Donruss-Optic-Football-Checklist-Pittsburgh-Steelers.php",
+        "https://www.tcdb.com/ChecklistByLastName.cfm/sid/589443/2025-Donruss-Optic---Orange-Scope"
+      ],
+      "family": "2025|Panini|Donruss Optic|Base",
+      "originalPhotoSHA256": {
+        "frontFile": "d1547ebe258d364766ce32a619bbf494b4b4692ff5d2aa5cf66915988033071e",
+        "backFile": "6834160229a72439189dd7e816737146415a1ec06a5b94ff21cfc31ee85f7bfa"
+      },
+      "convertedFrontSHA256": "0c41729a77d7b9db96b67251c51706e40bbc490361f5c26b51175a514ceac1ff"
+    },
+    {
+      "player": "Trey Amos",
+      "cardNumber": "267",
+      "parallel": "Blue Hyper",
+      "serialNumber": null,
+      "confidence": "medium",
+      "frontFile": "/Users/tobiaslatta/Downloads/IMG_3285.HEIC",
+      "backFile": "/Users/tobiaslatta/Downloads/IMG_3286 2.HEIC",
+      "frontJPEG": "/private/tmp/cardscout-reference-check/3285.jpg",
+      "evidence": "Printed name, card number and copyright identify Trey Amos #267, 2025 Donruss Optic; blue geometric foil supports Blue Hyper. The back PRIZM mark alone does not name the parallel. No serial visible. Not Dont’e Thornton.",
+      "sources": [
+        "https://www.tcdb.com/Checklist.cfm/sid/589491/2025-Donruss-Optic---Blue-Hyper",
+        "https://www.sportscardspro.com/game/football-cards-2025-panini-donruss-optic/trey-amos-blue-hyper-267"
+      ],
+      "family": "2025|Panini|Donruss Optic|Base",
+      "originalPhotoSHA256": {
+        "frontFile": "5e7ae01679f4c41312868103ce8b6bc3e6880fd8e921171272c7ba9f5da6d1d3",
+        "backFile": "a51dda01058b26f1645dffdbf4aff8ec7d87066fe84d1d7b584f7b30b19f565f"
+      },
+      "convertedFrontSHA256": "677fc48fba384bf109b9f4f28ac4ca8472ab71c995b901a922bf3c660434d7c1"
+    }
+  ],
+  "benchmarkImpact": "Original reference arm supplied an Orange Scope photo labeled Fire, omitted Orange Scope from the offered choices, and cannot establish exact-variant accuracy. Historical timings and outputs remain preserved. New reference arm changes both reference photos and candidate labels; not a controlled label-only ablation."
+}

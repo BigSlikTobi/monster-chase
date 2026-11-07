@@ -1,0 +1,3 @@
+"NSCameraUsageDescription" = "Photograph cards and scan a pairing code.";
+"NSLocalNetworkUsageDescription" = "Connect securely to your analysis server.";
+"CFBundleDisplayName" = "Burn Count";

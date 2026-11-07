@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-16",
+  "build": "1.1 (27)",
+  "installedOn": "MyApple",
+  "workerUpdated": true,
+  "workerConfigurationChanged": false,
+  "workerChecklistsChangedByDeployment": false,
+  "availableChecklists": 35,
+  "swift": {
+    "tests": 128,
+    "skipped": 1,
+    "failures": 0
+  },
+  "python": {
+    "tests": 204,
+    "failures": 0
+  },
+  "builds": {
+    "signedIOS": true,
+    "simulator": true
+  },
+  "liveDecisions": {
+    "httpStatus": 200,
+    "answerType": "choice",
+    "choice": "unknown",
+    "options": 13,
+    "seconds": 3.32,
+    "matches": [
+      {
+        "collectionID": "2025-panini-donruss-optic-base-blue-hyper",
+        "number": "267"
+      },
+      {
+        "collectionID": "2025-panini-donruss-optic-base",
+        "number": "267"
+      },
+      {
+        "collectionID": "2025-panini-donruss-optic-base-fire",
+        "number": "267"
+      },
+      {
+        "collectionID": "2025-panini-donruss-optic-base-holo",
+        "number": "267"
+      },
+      {
+        "collectionID": "2025-panini-donruss-optic-base-purple-shock",
+        "number": "267"
+      }
+    ],
+    "accuracyClaim": false
+  },
+  "workerSmoke": {
+    "status": "identified",
+    "matchNotice": "unknown",
+    "matches": 5,
+    "totalSecondsIncludingPauseCheck": 14.47,
+    "pauseCheckSeconds": 2,
+    "assessmentBeforeSelection": false,
+    "testJobDiscarded": true
+  },
+  "simulator": {
+    "cards": 1,
+    "drafts": 0,
+    "selectedParallel": "Blue Hyper",
+    "folderMemberships": 1,
+    "provenanceSaved": true
+  },
+  "phonePreservation": {
+    "savedCards": 45,
+    "photoFiles": 77,
+    "photoBytesUnchanged": true,
+    "cardIDsUnchanged": true,
+    "identitiesUnchanged": true,
+    "metadataUnchanged": true,
+    "wholeCardRecordsUnchanged": true,
+    "connected": true,
+    "checklists": 35
+  },
+  "limits": [
+    "Single live card is not an accuracy or throughput benchmark.",
+    "Physical camera capture for the new modal sequence has not been exercised with a real card.",
+    "Exact-variant reference artwork and independently reviewed catalog coverage remain incomplete.",
+    "Photo condition assessment does not certify a numerical grade or guarantee a price."
+  ]
+}

@@ -1,0 +1,43 @@
+# Credentials and local runtime data
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+auth.json
+config.json
+pairing.txt
+server.crt
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+jobs/
+
+# Generated files and caches
+.DS_Store
+node_modules/
+.next/
+.vinext/
+.wrangler/
+dist/
+build/
+build-device/
+.build/
+.swiftpm/
+__pycache__/
+*.py[cod]
+*.xcuserstate
+xcuserdata/
+coverage/
+*.log
+card-scout-ios/tmp/
+card-scout-ios/mac/context-cache/
+
+# Local duplicate snapshots (backed up in .git/local-backups)
+card-scout-app/app/page 2.tsx
+card-scout-app/db/schema 2.ts

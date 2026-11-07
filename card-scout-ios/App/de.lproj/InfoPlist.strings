@@ -1,0 +1,3 @@
+"NSCameraUsageDescription" = "Karten fotografieren und Verbindungscode scannen.";
+"NSLocalNetworkUsageDescription" = "Deinen Analyse-Server sicher verbinden.";
+"CFBundleDisplayName" = "Burn Count";

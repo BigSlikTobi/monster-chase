@@ -1,0 +1,14 @@
+{
+  "tool": "Built-in image_gen.imagegen",
+  "base": "Use case: stylized-concept. Asset: transparent PNG mascot for a sports trading-card collector app's Burn Count. Create one original charming little anthropomorphic flame creature, plush-quality premium 3D toy illustration, amber-orange flame head, large expressive dark eyes and small rounded body, wearing a forest-green American-football jersey with one small gold lightning-bolt emblem, cream sneakers. Holds one small blank trading card in a clear protective slab. Neutral curious expression with a gently raised eyebrow, friendly and a little cheeky. Full body, centered, three-quarter front view, consistent soft studio lighting, no ground/background, genuinely transparent alpha, generous clear margin around complete silhouette. Bold readable expression at 120 pixels. Refined tactile material, appealing sports collectible vinyl-toy personality. No text, no numbers, no logos, no extra characters, no UI, no background, no shadow rectangle.",
+  "variants": [
+    {
+      "name": "proud",
+      "prompt": "Edit this transparent mascot image into the PROUD / HAPPY state for a trading-card Burn Count. Preserve this exact original orange flame character, green football jersey with gold lightning bolt, cream-green sneakers, slab card, tactile premium 3D toy style, consistent body proportions, palette, lighting and full-body front three-quarter framing. Change expression to a huge delighted proud grin and raised confident eyebrows; free hand gives a thumbs-up. Friendly collector joy. Keep full silhouette inside generous transparent margins, including flame tip and shoes. Genuinely transparent alpha. No text, no numbers, no logos, no background, no additional characters."
+    },
+    {
+      "name": "roasted",
+      "prompt": "Edit this transparent mascot image into the SHEEPISH / EMBARRASSED state for a trading-card Burn Count. Preserve this exact original orange flame character, green football jersey with gold lightning bolt, cream-green sneakers, slab card, tactile premium 3D toy style, same body proportions, palette, lighting and full-body front three-quarter framing. Change expression to a funny sheepish embarrassed closed-mouth crooked grin, worried raised brows and blushing cheeks with two oversized blue sweat droplets at the temple. Free hand awkwardly scratches back of head. Endearing and comedic, never distressed, cruel or punished. Keep full silhouette inside generous transparent margins, including flame tip and shoes. Genuinely transparent alpha. No text, no numbers, no logos, no background, no additional characters."
+    }
+  ]
+}

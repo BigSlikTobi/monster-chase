@@ -1,0 +1,183 @@
+{
+  "revision": "bf9d8fd8afcbf544029f30883a8a9ebdba1d254922461ca7884f2401cf0673a9",
+  "slots": 4814,
+  "exactImages": 547,
+  "binders": [
+    {
+      "id": "2025-panini-donruss-optic-best-tuddys",
+      "slots": 20,
+      "exactImages": 2
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-gold",
+      "slots": 400,
+      "exactImages": 15
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-football-leather-foil",
+      "slots": 400,
+      "exactImages": 3
+    },
+    {
+      "id": "2026-topps-topps-flagship-topps-profiles",
+      "slots": 25,
+      "exactImages": 23
+    },
+    {
+      "id": "2026-topps-topps-flagship-big-ticket-players",
+      "slots": 25,
+      "exactImages": 12
+    },
+    {
+      "id": "2026-topps-topps-flagship-2025-greatest-hits",
+      "slots": 25,
+      "exactImages": 18
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-pink-holo-foil",
+      "slots": 400,
+      "exactImages": 2
+    },
+    {
+      "id": "2026-topps-topps-flagship-2025-all-topps-team",
+      "slots": 20,
+      "exactImages": 19
+    },
+    {
+      "id": "2026-topps-topps-flagship-greats-of-the-game",
+      "slots": 30,
+      "exactImages": 9
+    },
+    {
+      "id": "2026-topps-topps-flagship-nfl-stars",
+      "slots": 40,
+      "exactImages": 16
+    },
+    {
+      "id": "2026-topps-topps-flagship-1991-topps-football",
+      "slots": 50,
+      "exactImages": 47
+    },
+    {
+      "id": "2026-topps-topps-flagship-1991-topps-rookies-football",
+      "slots": 50,
+      "exactImages": 45
+    },
+    {
+      "id": "2025-panini-donruss-optic-my-house",
+      "slots": 10,
+      "exactImages": 4
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-purple-shock",
+      "slots": 300,
+      "exactImages": 6
+    },
+    {
+      "id": "2026-topps-topps-flagship-base",
+      "slots": 400,
+      "exactImages": 47
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-holo-foil",
+      "slots": 400,
+      "exactImages": 8
+    },
+    {
+      "id": "2025-panini-donruss-optic-2015-retro",
+      "slots": 30,
+      "exactImages": 4
+    },
+    {
+      "id": "2025-panini-donruss-optic-rookie-phenoms-blue-hyper",
+      "slots": 42,
+      "exactImages": 1
+    },
+    {
+      "id": "2025-panini-donruss-optic-first-year-fresh-blue-hyper",
+      "slots": 42,
+      "exactImages": 1
+    },
+    {
+      "id": "2026-topps-topps-flagship-nfl-material-green",
+      "slots": 48,
+      "exactImages": 1
+    },
+    {
+      "id": "2025-panini-donruss-optic-downtown",
+      "slots": 25,
+      "exactImages": 2
+    },
+    {
+      "id": "2025-topps-topps-chrome-all-chrome-team",
+      "slots": 25,
+      "exactImages": 3
+    },
+    {
+      "id": "2025-topps-topps-chrome-base-lightboard-logo-variation",
+      "slots": 2,
+      "exactImages": 1
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-holo",
+      "slots": 300,
+      "exactImages": 9
+    },
+    {
+      "id": "2025-panini-donruss-optic-captain-in-charge",
+      "slots": 10,
+      "exactImages": 4
+    },
+    {
+      "id": "2025-panini-donruss-optic-hidden-potential",
+      "slots": 20,
+      "exactImages": 3
+    },
+    {
+      "id": "2025-panini-donruss-optic-play-action",
+      "slots": 20,
+      "exactImages": 2
+    },
+    {
+      "id": "2025-panini-donruss-optic-rookie-recruits",
+      "slots": 20,
+      "exactImages": 6
+    },
+    {
+      "id": "2025-panini-donruss-optic-diamond-hands",
+      "slots": 10,
+      "exactImages": 4
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-blue-hyper",
+      "slots": 300,
+      "exactImages": 11
+    },
+    {
+      "id": "2025-panini-donruss-optic-base",
+      "slots": 300,
+      "exactImages": 63
+    },
+    {
+      "id": "2025-topps-topps-chrome-all-chrome-team-refractor",
+      "slots": 25,
+      "exactImages": 4
+    },
+    {
+      "id": "2025-topps-topps-chrome-base",
+      "slots": 400,
+      "exactImages": 144
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-fire",
+      "slots": 300,
+      "exactImages": 2
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-orange",
+      "slots": 300,
+      "exactImages": 6
+    }
+  ],
+  "bindersWithImages": 35
+}

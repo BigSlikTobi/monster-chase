@@ -1,0 +1,34 @@
+{
+  "build": 28,
+  "pythonTests": {
+    "passed": 211
+  },
+  "swiftTests": {
+    "executed": 133,
+    "skipped": 1,
+    "failures": 0
+  },
+  "signedIPhoneBuild": "passed",
+  "simulatorBuild": "passed",
+  "visualChecks": [
+    "actual card photos rendered in binder grid",
+    "exact coverage 23/25 shown in Profiles",
+    "enlarged exact-card photo and attribution",
+    "variant example explicitly marked as different card"
+  ],
+  "liveAPI": {
+    "status": "ok",
+    "exactImages": 547,
+    "bindersWithImages": 35,
+    "checklistsSHA": "fce32dc45cf25048b4bc74c8f479aa02aa2ffb6a5daa47ddb0d9f6d400d71c4b",
+    "revision": "bf9d8fd8afcbf544029f30883a8a9ebdba1d254922461ca7884f2401cf0673a9"
+  },
+  "phone": {
+    "ownedRecords": 45,
+    "ownedRecordsUnchanged": true,
+    "originalPhotos": 77,
+    "allOriginalPhotosUnchanged": true,
+    "exactReferenceImages": 547,
+    "bindersWithExamples": 35
+  }
+}

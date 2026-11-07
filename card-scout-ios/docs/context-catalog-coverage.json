@@ -1,0 +1,360 @@
+{
+  "revision": "4bc9ccfc9fc6f9ccf8b78f5967ed2183bc0c6430b11f19f83bdd1384336e2a12",
+  "products": [
+    {
+      "id": "2025-panini-donruss-optic",
+      "product": "2025 Donruss Optic",
+      "binders": 16,
+      "families": 12,
+      "candidateRows": 549,
+      "discoveryOnly": false
+    },
+    {
+      "id": "2025-panini-prizm",
+      "product": "2025 Prizm",
+      "binders": 0,
+      "families": 0,
+      "candidateRows": 0,
+      "discoveryOnly": true
+    },
+    {
+      "id": "2025-panini-select",
+      "product": "2025 Select",
+      "binders": 0,
+      "families": 0,
+      "candidateRows": 0,
+      "discoveryOnly": true
+    },
+    {
+      "id": "2025-topps-topps-chrome",
+      "product": "2025 Topps Chrome",
+      "binders": 4,
+      "families": 2,
+      "candidateRows": 425,
+      "discoveryOnly": false
+    },
+    {
+      "id": "2026-topps-topps-flagship",
+      "product": "2026 Topps Flagship",
+      "binders": 14,
+      "families": 10,
+      "candidateRows": 713,
+      "discoveryOnly": false
+    }
+  ],
+  "binderCount": 34,
+  "sourceCount": 32,
+  "issueCount": 2,
+  "reviewedFamilies": 0,
+  "variantsWithReviewedRules": 0,
+  "variantsWithReviewedImages": 0,
+  "binders": [
+    {
+      "id": "2025-panini-donruss-optic-2015-retro",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:2015-retro",
+      "variantID": "2025-panini-donruss-optic:2015-retro:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-base",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:base",
+      "variantID": "2025-panini-donruss-optic:base:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-blue-hyper",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:base",
+      "variantID": "2025-panini-donruss-optic:base:blue-hyper",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-fire",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:base",
+      "variantID": "2025-panini-donruss-optic:base:fire",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-holo",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:base",
+      "variantID": "2025-panini-donruss-optic:base:holo",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-base-purple-shock",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:base",
+      "variantID": "2025-panini-donruss-optic:base:purple-shock",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-best-tuddys",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:best-tuddys",
+      "variantID": "2025-panini-donruss-optic:best-tuddys:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-captain-in-charge",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:captain-in-charge",
+      "variantID": "2025-panini-donruss-optic:captain-in-charge:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-diamond-hands",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:diamond-hands",
+      "variantID": "2025-panini-donruss-optic:diamond-hands:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-downtown",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:downtown",
+      "variantID": "2025-panini-donruss-optic:downtown:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-first-year-fresh-blue-hyper",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:first-year-fresh",
+      "variantID": "2025-panini-donruss-optic:first-year-fresh:blue-hyper",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-hidden-potential",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:hidden-potential",
+      "variantID": "2025-panini-donruss-optic:hidden-potential:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-my-house",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:my-house",
+      "variantID": "2025-panini-donruss-optic:my-house:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-play-action",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:play-action",
+      "variantID": "2025-panini-donruss-optic:play-action:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-rookie-phenoms-blue-hyper",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:rookie-phenoms",
+      "variantID": "2025-panini-donruss-optic:rookie-phenoms:blue-hyper",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-panini-donruss-optic-rookie-recruits",
+      "productID": "2025-panini-donruss-optic",
+      "familyID": "2025-panini-donruss-optic:rookie-recruits",
+      "variantID": "2025-panini-donruss-optic:rookie-recruits:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-topps-topps-chrome-all-chrome-team",
+      "productID": "2025-topps-topps-chrome",
+      "familyID": "2025-topps-topps-chrome:all-chrome-team",
+      "variantID": "2025-topps-topps-chrome:all-chrome-team:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-topps-topps-chrome-all-chrome-team-refractor",
+      "productID": "2025-topps-topps-chrome",
+      "familyID": "2025-topps-topps-chrome:all-chrome-team",
+      "variantID": "2025-topps-topps-chrome:all-chrome-team:refractor",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-topps-topps-chrome-base",
+      "productID": "2025-topps-topps-chrome",
+      "familyID": "2025-topps-topps-chrome:base",
+      "variantID": "2025-topps-topps-chrome:base:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2025-topps-topps-chrome-base-lightboard-logo-variation",
+      "productID": "2025-topps-topps-chrome",
+      "familyID": "2025-topps-topps-chrome:base",
+      "variantID": "2025-topps-topps-chrome:base:lightboard-logo-variation",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-1991-topps-football",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:1991-topps-football",
+      "variantID": "2026-topps-topps-flagship:1991-topps-football:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-1991-topps-rookies-football",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:1991-topps-rookies-football",
+      "variantID": "2026-topps-topps-flagship:1991-topps-rookies-football:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-2025-all-topps-team",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:2025-all-topps-team",
+      "variantID": "2026-topps-topps-flagship:2025-all-topps-team:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-2025-greatest-hits",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:2025-greatest-hits",
+      "variantID": "2026-topps-topps-flagship:2025-greatest-hits:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-base",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:base",
+      "variantID": "2026-topps-topps-flagship:base:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-football-leather-foil",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:base",
+      "variantID": "2026-topps-topps-flagship:base:football-leather-foil",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-gold",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:base",
+      "variantID": "2026-topps-topps-flagship:base:gold",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-holo-foil",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:base",
+      "variantID": "2026-topps-topps-flagship:base:holo-foil",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-base-pink-holo-foil",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:base",
+      "variantID": "2026-topps-topps-flagship:base:pink-holo-foil",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-big-ticket-players",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:big-ticket-players",
+      "variantID": "2026-topps-topps-flagship:big-ticket-players:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-greats-of-the-game",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:greats-of-the-game",
+      "variantID": "2026-topps-topps-flagship:greats-of-the-game:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-nfl-material-green",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:nfl-material",
+      "variantID": "2026-topps-topps-flagship:nfl-material:green",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-nfl-stars",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:nfl-stars",
+      "variantID": "2026-topps-topps-flagship:nfl-stars:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    },
+    {
+      "id": "2026-topps-topps-flagship-topps-profiles",
+      "productID": "2026-topps-topps-flagship",
+      "familyID": "2026-topps-topps-flagship:topps-profiles",
+      "variantID": "2026-topps-topps-flagship:topps-profiles:base",
+      "verification": "imported_unverified",
+      "membershipVerified": false
+    }
+  ],
+  "sourceCheckPilot": {
+    "checkedOn": "2026-10-16",
+    "sourceState": {
+      "sources": {
+        "source-56617718d137cf9a0220": {
+          "lastAttempt": "2026-10-16T17:43:41.290365+00:00",
+          "status": "unavailable",
+          "httpStatus": 403
+        },
+        "source-76539539a7b08f27d2ab": {
+          "lastAttempt": "2026-10-16T17:43:41.664722+00:00",
+          "status": "first_capture_needs_review",
+          "sha256": "ab25d4ceb1d5693dd0e74f82c9a5d716b0d6929f2c2f009ffdc09d223c30b035",
+          "lastSuccess": "2026-10-16T17:43:41.664722+00:00",
+          "finalURL": "https://cdn.shopify.com/s/files/1/0662/9749/5709/files/CheckList_26TFOB_VERSION5_1.pdf?v=1786730315",
+          "etag": null,
+          "lastModified": "Sat, 03 Oct 2026 18:01:04 GMT"
+        },
+        "source-944d1fc012a3f63220e7": {
+          "lastAttempt": "2026-10-16T17:43:41.990636+00:00",
+          "status": "unavailable",
+          "httpStatus": 403
+        }
+      }
+    },
+    "catalogWasChanged": false
+  },
+  "remainingWork": [
+    "Validate imported checklist fields against release-specific pinned source documents.",
+    "Implement and test release/format adapters for staged source revisions.",
+    "Verify variant applicability and look-alike finish rules across each release.",
+    "Install and review private reference photo assets; keep held-out test cards separate.",
+    "Integrate validated suggestion context into scans and benchmark per product/finish.",
+    "Install the bounded update timer only after the ingestion/review path is ready."
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "date": "2026-10-20",
+  "initial": {
+    "catalog": {
+      "addedCollections": 19,
+      "addedRows": 1362,
+      "conflicts": []
+    },
+    "cases": [
+      {
+        "case": "harmon",
+        "expected": "Orange Scope",
+        "identified": {
+          "player": "Derrick Harmon",
+          "cardNumber": "157",
+          "parallel": "Orange",
+          "confidence": "medium"
+        },
+        "identificationSeconds": 9.67,
+        "before": {
+          "seconds": 2.95,
+          "diagnostics": {
+            "status": "ranked"
+          },
+          "suggestions": [
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Orange",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Holo",
+              "subset": "Base"
+            }
+          ]
+        },
+        "after": {
+          "seconds": 3.82,
+          "diagnostics": {
+            "status": "unknown",
+            "referenceImages": 6
+          },
+          "suggestions": [
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Orange",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Holo",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Fire",
+              "subset": "Base"
+            }
+          ]
+        }
+      },
+      {
+        "case": "amos",
+        "expected": "Blue Hyper",
+        "identified": {
+          "player": "Trey Amos",
+          "cardNumber": "267",
+          "parallel": "Blue Hyper",
+          "confidence": "medium"
+        },
+        "identificationSeconds": 7.2,
+        "before": {
+          "seconds": 1.81,
+          "diagnostics": {
+            "status": "unknown"
+          },
+          "suggestions": [
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Holo",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Orange",
+              "subset": "Base"
+            }
+          ]
+        },
+        "after": {
+          "seconds": 3.15,
+          "diagnostics": {
+            "status": "ranked",
+            "referenceImages": 6
+          },
+          "suggestions": [
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Purple Shock",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Holo",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Fire",
+              "subset": "Base"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "final": {
+    "catalog": {
+      "chrome": {
+        "addedCollections": 19,
+        "addedRows": 1362,
+        "conflicts": []
+      },
+      "optic": {
+        "addedCollections": 1,
+        "addedRows": 300,
+        "conflicts": []
+      }
+    },
+    "cases": [
+      {
+        "case": "harmon",
+        "expected": "Orange Scope",
+        "identified": {
+          "player": "Derrick Harmon",
+          "cardNumber": "357",
+          "parallel": "Orange Scope",
+          "serialNumber": null,
+          "confidence": "medium"
+        },
+        "identificationSeconds": 7.88,
+        "before": {
+          "seconds": 1.87,
+          "diagnostics": {
+            "status": "unknown"
+          },
+          "suggestions": [
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Holo",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Orange",
+              "subset": "Base"
+            }
+          ]
+        },
+        "after": {
+          "seconds": 2.95,
+          "diagnostics": {
+            "status": "ranked",
+            "referenceImages": 6
+          },
+          "suggestions": [
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Orange Scope",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Derrick Harmon",
+              "number": "257",
+              "parallel": "Orange",
+              "subset": "Base"
+            }
+          ]
+        }
+      },
+      {
+        "case": "amos",
+        "expected": "Blue Hyper",
+        "identified": {
+          "player": "Trey Amos",
+          "cardNumber": "267",
+          "parallel": "Blue Hyper",
+          "serialNumber": null,
+          "confidence": "medium"
+        },
+        "identificationSeconds": 6.98,
+        "before": {
+          "seconds": 2.58,
+          "diagnostics": {
+            "status": "unknown"
+          },
+          "suggestions": [
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Holo",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Orange",
+              "subset": "Base"
+            }
+          ]
+        },
+        "after": {
+          "seconds": 4.84,
+          "diagnostics": {
+            "status": "ranked",
+            "referenceImages": 6
+          },
+          "suggestions": [
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Purple Shock",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Blue Hyper",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": null,
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Fire",
+              "subset": "Base"
+            },
+            {
+              "player": "Trey Amos",
+              "number": "267",
+              "parallel": "Holo",
+              "subset": "Base"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "limits": [
+    "Two cards only; not an accuracy benchmark.",
+    "Harmon first-pass OCR still read the wrong number; source-backed suggestion was #257.",
+    "Amos alternated between Blue Hyper first and second; reviewed target was medium confidence.",
+    "The rerun includes a catalog addition, so it does not isolate the effect of reference images."
+  ],
+  "guides": {
+    "tested": 8,
+    "found": 2,
+    "paidSearch": false,
+    "cardSightCalls": 0,
+    "description": "Selected confirmed historical identities, not an inventory-wide coverage measure."
+  }
+}

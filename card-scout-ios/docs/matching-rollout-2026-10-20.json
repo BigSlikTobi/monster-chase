@@ -1,0 +1,19 @@
+{
+  "build": 29,
+  "installed": true,
+  "launched": true,
+  "connected": true,
+  "ownedCards": 45,
+  "collections": 55,
+  "checklistRows": 6476,
+  "workerCoverageAt": "2026-10-20T10:45:00+02:00",
+  "workerPricesAvailable": 25,
+  "identityNeedsReview": 9,
+  "checkedWithoutPrice": 9,
+  "pending": 2,
+  "phoneLastVerifiedPrices": 11,
+  "phoneLastVerifiedGuideEstimates": 4,
+  "pythonPassed": 223,
+  "swiftPassed": 133,
+  "swiftSkipped": 1
+}

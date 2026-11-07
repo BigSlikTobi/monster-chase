@@ -1,0 +1,32 @@
+CREATE TABLE `cards` (
+	`id` text PRIMARY KEY NOT NULL,
+	`status` text DEFAULT 'pending' NOT NULL,
+	`created_at` text NOT NULL,
+	`updated_at` text NOT NULL,
+	`analyzed_at` text,
+	`front_key` text NOT NULL,
+	`front_mime` text NOT NULL,
+	`front_name` text NOT NULL,
+	`back_key` text,
+	`back_mime` text,
+	`back_name` text,
+	`player` text,
+	`year` integer,
+	`brand` text,
+	`set_name` text,
+	`card_number` text,
+	`parallel` text,
+	`team` text,
+	`rookie` integer,
+	`serial_number` text,
+	`recommendation` text,
+	`market_low_cents` integer,
+	`market_high_cents` integer,
+	`confidence` text,
+	`condition_notes` text,
+	`rationale` text,
+	`analysis_json` text,
+	`error_message` text
+);
+--> statement-breakpoint
+CREATE INDEX `cards_status_created_idx` ON `cards` (`status`,`created_at`);
